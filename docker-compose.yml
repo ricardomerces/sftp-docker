@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  sftp:
+    image: sftp:latest
+    ports:
+      - 22222:22
